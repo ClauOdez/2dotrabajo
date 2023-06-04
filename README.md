@@ -10,7 +10,7 @@ Pre-requisitos 📋 No se requieren instalaciones adicionales para ejecutar este
 
 Instalación 🔧 Sigue estos pasos para ejecutar el proyecto localmente
 
-Clona este repositorio en tu máquina local. git clone https://github.com/ClauOdez/UDD-desafio-2.git Navega hasta el directorio del proyecto. cd nombre-repo: UDD-desafio-2 Abre el archivo index.html en tu navegador web. Ejecutando las pruebas ⚙️ Este proyecto no cuenta con pruebas automatizadas. Sin embargo, puedes probar manualmente todas las funcionalidades del gestor de tareas.
+Clona este repositorio en tu máquina local. git clone https://github.com/ClauOdez/ClauOdez.github.io.git Navega hasta el directorio del proyecto. cd nombre-repo: ClauOdez Abre el archivo index.html en tu navegador web. Ejecutando las pruebas ⚙️ Este proyecto no cuenta con pruebas automatizadas. Sin embargo, puedes probar manualmente todas las funcionalidades del gestor de tareas.
 
 Analizar pruebas de extremo a extremo 🔩 Puedes verificar que las tareas se creen correctamente, se puedan marcar como completadas y eliminarlas adecuadamente.
 
