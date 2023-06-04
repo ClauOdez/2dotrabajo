@@ -38,20 +38,34 @@ window.addEventListener('load', function() {
 //ojo falta ver lo de eliminar y que se marquen como okey//
 
 // llamar codigo //
+
+// llamar codigo //
 const forme= document.querySelector('form');
-const input = document.getElementById('todoList')
+const input = document.getElementById('todoList');
 const list = document.getElementById('listado');
 
 forme.addEventListener('submit', function(event){
     event.preventDefault();
-    const todoText = input.value.trim(); //remover espacios//
+    const todoText = input.value.trim();
+
     if (todoText !== ''){
         const listItem = document.createElement('li');
-        listItem.textContent = todoText;
-        list.appendChild(listItem); //papa-hijo//
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+
+        checkbox.addEventListener('change', function() {
+            listItem.style.textDecoration = this.checked ? 'line-through' : 'none';
+        });
+
+        listItem.appendChild(checkbox);
+        const label = document.createElement('label');
+        label.textContent = todoText;
+        listItem.appendChild(label);
+
+        list.appendChild(listItem);
         input.value = '';
     }
-})
+});
 
 
 
